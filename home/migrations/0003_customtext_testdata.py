@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0002_auto_20200115_0744'),
+        ("home", "0002_auto_20200115_0744"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='customtext',
-            name='testdata',
+            model_name="customtext",
+            name="testdata",
             field=models.IntegerField(blank=True, null=True),
         ),
     ]
